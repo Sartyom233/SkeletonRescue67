@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: dfff5909716b2444fbc9b7ccd50a6296
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6339144701727952880
+    second: jugga-attack_0
+  - first:
+      213: -99114919513778099
+    second: jugga-attack_1
+  - first:
+      213: 6195505756043851471
+    second: jugga-attack_2
+  - first:
+      213: -499317193754303293
+    second: jugga-attack_3
+  - first:
+      213: -8350576708042142527
+    second: jugga-attack_4
+  - first:
+      213: -627606829424459185
+    second: jugga-attack_5
+  - first:
+      213: 5182701033485676100
+    second: jugga-attack_6
+  - first:
+      213: 1544110029337066891
+    second: jugga-attack_7
+  - first:
+      213: -2446660406760417627
+    second: jugga-attack_8
+  - first:
+      213: -262264898038063358
+    second: jugga-attack_9
+  - first:
+      213: 4102363543770204435
+    second: jugga-attack_10
+  - first:
+      213: 1605126458470797316
+    second: jugga-attack_11
+  - first:
+      213: 8657380533807299369
+    second: jugga-attack_12
+  - first:
+      213: -3689595449739745122
+    second: jugga-attack_13
+  - first:
+      213: 4441974848895986085
+    second: jugga-attack_14
+  - first:
+      213: 3612307826642157070
+    second: jugga-attack_15
+  - first:
+      213: 2139778188200831267
+    second: jugga-attack_16
+  - first:
+      213: 5727561595144702628
+    second: jugga-attack_17
+  - first:
+      213: -280165175683209868
+    second: jugga-attack_18
+  - first:
+      213: -6735522528521993767
+    second: jugga-attack_19
+  - first:
+      213: 2787107686838053379
+    second: jugga-attack_20
+  - first:
+      213: 6163999504560125245
+    second: jugga-attack_21
+  - first:
+      213: -6481262696014272748
+    second: jugga-attack_22
+  - first:
+      213: -330182697225069896
+    second: jugga-attack_23
+  - first:
+      213: 3977403368682919060
+    second: jugga-attack_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jugga-attack_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1056
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010b4b1ea75d608a0800000000000000
+      internalID: -6339144701727952880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1056
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48907e718fdf9ef0800000000000000
+      internalID: -99114919513778099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1056
+        width: 190
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6b1e0f8abdaf550800000000000000
+      internalID: 6195505756043851471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1056
+        width: 190
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4a70468a11219f0800000000000000
+      internalID: -499317193754303293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_4
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1056
+        width: 181
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc4f7f2abacc1c80800000000000000
+      internalID: -8350576708042142527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 800
+        width: 208
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42cb81f9ea4a47f0800000000000000
+      internalID: -627606829424459185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 800
+        width: 214
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ea6fd7127ace740800000000000000
+      internalID: 5182701033485676100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_7
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 800
+        width: 214
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8df0c004e7cd6510800000000000000
+      internalID: 1544110029337066891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_8
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 800
+        width: 214
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a65801b257bb0ed0800000000000000
+      internalID: -2446660406760417627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_9
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 800
+        width: 210
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f136bf67f3c5cf0800000000000000
+      internalID: -262264898038063358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 544
+        width: 164
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3198fe568e58ee830800000000000000
+      internalID: 4102363543770204435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 544
+        width: 163
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4009bb8720e864610800000000000000
+      internalID: 1605126458470797316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_12
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 544
+        width: 163
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b37fa0ab1352870800000000000000
+      internalID: 8657380533807299369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_13
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 544
+        width: 163
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e986d5d9c7cebccc0800000000000000
+      internalID: -3689595449739745122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_14
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 544
+        width: 162
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a92aa9279015ad30800000000000000
+      internalID: 4441974848895986085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 288
+        width: 162
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e7e5a54de712230800000000000000
+      internalID: 3612307826642157070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_16
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 288
+        width: 162
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329e6d5dce402bd10800000000000000
+      internalID: 2139778188200831267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 288
+        width: 163
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa05c3cce26c7f40800000000000000
+      internalID: 5727561595144702628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_18
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 288
+        width: 163
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475a7f0d147ac1cf0800000000000000
+      internalID: -280165175683209868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_19
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 288
+        width: 163
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d14ec652fd9682a0800000000000000
+      internalID: -6735522528521993767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 32
+        width: 153
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a2eb8acabcda620800000000000000
+      internalID: 2787107686838053379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_21
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 32
+        width: 202
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d357df024ecea8550800000000000000
+      internalID: 6163999504560125245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 32
+        width: 212
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417241ccaeded06a0800000000000000
+      internalID: -6481262696014272748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_23
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 32
+        width: 213
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba5be41694fa6bf0800000000000000
+      internalID: -330182697225069896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-attack_24
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 32
+        width: 213
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49499c66a43923730800000000000000
+      internalID: 3977403368682919060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jugga-attack_0: -6339144701727952880
+      jugga-attack_1: -99114919513778099
+      jugga-attack_10: 4102363543770204435
+      jugga-attack_11: 1605126458470797316
+      jugga-attack_12: 8657380533807299369
+      jugga-attack_13: -3689595449739745122
+      jugga-attack_14: 4441974848895986085
+      jugga-attack_15: 3612307826642157070
+      jugga-attack_16: 2139778188200831267
+      jugga-attack_17: 5727561595144702628
+      jugga-attack_18: -280165175683209868
+      jugga-attack_19: -6735522528521993767
+      jugga-attack_2: 6195505756043851471
+      jugga-attack_20: 2787107686838053379
+      jugga-attack_21: 6163999504560125245
+      jugga-attack_22: -6481262696014272748
+      jugga-attack_23: -330182697225069896
+      jugga-attack_24: 3977403368682919060
+      jugga-attack_3: -499317193754303293
+      jugga-attack_4: -8350576708042142527
+      jugga-attack_5: -627606829424459185
+      jugga-attack_6: 5182701033485676100
+      jugga-attack_7: 1544110029337066891
+      jugga-attack_8: -2446660406760417627
+      jugga-attack_9: -262264898038063358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

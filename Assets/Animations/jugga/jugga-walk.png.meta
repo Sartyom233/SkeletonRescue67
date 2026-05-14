@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: fc09ac1a1b831cd47a4393f2acb55584
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2098296178771901902
+    second: jugga-walk_0
+  - first:
+      213: -7287197804407658996
+    second: jugga-walk_1
+  - first:
+      213: -415602973550022895
+    second: jugga-walk_2
+  - first:
+      213: 9186331482157641758
+    second: jugga-walk_3
+  - first:
+      213: 6872992411461152434
+    second: jugga-walk_4
+  - first:
+      213: -8559956404592054592
+    second: jugga-walk_5
+  - first:
+      213: -1759220244223654697
+    second: jugga-walk_6
+  - first:
+      213: -482272093145430612
+    second: jugga-walk_7
+  - first:
+      213: 1820182696756792885
+    second: jugga-walk_8
+  - first:
+      213: -3090928218837937140
+    second: jugga-walk_9
+  - first:
+      213: 500931711371628506
+    second: jugga-walk_10
+  - first:
+      213: -2346804726399534299
+    second: jugga-walk_11
+  - first:
+      213: 3234906868418217613
+    second: jugga-walk_12
+  - first:
+      213: 3740050437552593319
+    second: jugga-walk_13
+  - first:
+      213: 742979188824871829
+    second: jugga-walk_14
+  - first:
+      213: -1880909502034337230
+    second: jugga-walk_15
+  - first:
+      213: -2016428777302571916
+    second: jugga-walk_16
+  - first:
+      213: 917979637354860617
+    second: jugga-walk_17
+  - first:
+      213: -7587585410403704664
+    second: jugga-walk_18
+  - first:
+      213: 6235072930479294847
+    second: jugga-walk_19
+  - first:
+      213: 3810080387233262226
+    second: jugga-walk_20
+  - first:
+      213: -8928197751960568894
+    second: jugga-walk_21
+  - first:
+      213: 1802774600534854654
+    second: jugga-walk_22
+  - first:
+      213: -5906678817716935279
+    second: jugga-walk_23
+  - first:
+      213: 3505839514248992313
+    second: jugga-walk_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jugga-walk_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1056
+        width: 181
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd3241e145ae1d10800000000000000
+      internalID: 2098296178771901902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1056
+        width: 180
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c066644c43caeda90800000000000000
+      internalID: -7287197804407658996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_2
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1057
+        width: 177
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f64f92c4b7b3af0800000000000000
+      internalID: -415602973550022895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_3
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1057
+        width: 181
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e107efecfc76c7f70800000000000000
+      internalID: 9186331482157641758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_4
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1057
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bee81dfe26c16f50800000000000000
+      internalID: 6872992411461152434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 800
+        width: 190
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cee57ba00de43980800000000000000
+      internalID: -8559956404592054592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 798
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d48f55328ef597e0800000000000000
+      internalID: -1759220244223654697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_7
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 797
+        width: 189
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca58bf22610ae49f0800000000000000
+      internalID: -482272093145430612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_8
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 798
+        width: 184
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e408ad486924910800000000000000
+      internalID: 1820182696756792885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_9
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 797
+        width: 178
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c041fe15921da15d0800000000000000
+      internalID: -3090928218837937140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 542
+        width: 174
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfc809ccbaa3f600800000000000000
+      internalID: 500931711371628506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 542
+        width: 169
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b7fb509897e6fd0800000000000000
+      internalID: -2346804726399534299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_12
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 544
+        width: 170
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d860a8558a2b4ec20800000000000000
+      internalID: 3234906868418217613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_13
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 544
+        width: 173
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9dd5cae0457e330800000000000000
+      internalID: 3740050437552593319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_14
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 545
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5931a61c2a79f4a00800000000000000
+      internalID: 742979188824871829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_15
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 289
+        width: 181
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232269cf5caa5e5e0800000000000000
+      internalID: -1880909502034337230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 289
+        width: 187
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4744106e5b43404e0800000000000000
+      internalID: -2016428777302571916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_17
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 288
+        width: 190
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9401493dd915dbc00800000000000000
+      internalID: 917979637354860617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_18
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 286
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a063fd154b73b690800000000000000
+      internalID: -7587585410403704664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_19
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 286
+        width: 189
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f794fd1abcd678650800000000000000
+      internalID: 6235072930479294847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 30
+        width: 184
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa8beecef10e430800000000000000
+      internalID: 3810080387233262226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 29
+        width: 178
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbf2fdb27ba81480800000000000000
+      internalID: -8928197751960568894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_22
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 30
+        width: 174
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb0afa92fdb40910800000000000000
+      internalID: 1802774600534854654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_23
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 30
+        width: 169
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19568a309e2470ea0800000000000000
+      internalID: -5906678817716935279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jugga-walk_24
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 32
+        width: 171
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936d656a67e37a030800000000000000
+      internalID: 3505839514248992313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jugga-walk_0: 2098296178771901902
+      jugga-walk_1: -7287197804407658996
+      jugga-walk_10: 500931711371628506
+      jugga-walk_11: -2346804726399534299
+      jugga-walk_12: 3234906868418217613
+      jugga-walk_13: 3740050437552593319
+      jugga-walk_14: 742979188824871829
+      jugga-walk_15: -1880909502034337230
+      jugga-walk_16: -2016428777302571916
+      jugga-walk_17: 917979637354860617
+      jugga-walk_18: -7587585410403704664
+      jugga-walk_19: 6235072930479294847
+      jugga-walk_2: -415602973550022895
+      jugga-walk_20: 3810080387233262226
+      jugga-walk_21: -8928197751960568894
+      jugga-walk_22: 1802774600534854654
+      jugga-walk_23: -5906678817716935279
+      jugga-walk_24: 3505839514248992313
+      jugga-walk_3: 9186331482157641758
+      jugga-walk_4: 6872992411461152434
+      jugga-walk_5: -8559956404592054592
+      jugga-walk_6: -1759220244223654697
+      jugga-walk_7: -482272093145430612
+      jugga-walk_8: 1820182696756792885
+      jugga-walk_9: -3090928218837937140
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
