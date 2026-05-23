@@ -4,20 +4,30 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Движение")]
     public float moveSpeed = 8f;
     public float jumpForce = 4f;
     public LayerMask groundLayer;
     public float groundCheckDistance = 0.1f;
 
+    [Header("Лестница")]
+    public float climbSpeed = 5f;
+    private bool isNearLadder = false;
+    private bool isClimbing = false;
+    private float defaultGravity; // Запомним изначальную гравитацию
+    private float verticalInput;
+
+    [Header("Стрельба")]
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float shootCooldown = 0.3f;
     private float shootTimer;
 
+    [Header("Интерфейс и Здоровье")]
     public int maxHealth = 5;
     private int currentHealth;
-    public Text healthText;              // старый текстовый индикатор (опционально)
-    public HealthUI healthUI;            // сердечки
+    public Text healthText;            
+    public HealthUI healthUI;            
 
     public int maxAmmo = 6;
     private int currentAmmo;
@@ -25,7 +35,7 @@ public class PlayerController : MonoBehaviour
     private bool isReloading = false;
     public Text ammoText;
 
-    public GameOverUI gameOverUI;        // экран проигрыша
+    public GameOverUI gameOverUI;        
 
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
@@ -44,6 +54,8 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer != null) originalColor = spriteRenderer.color;
 
+        defaultGravity = rb.gravityScale; // Сохраняем базовую гравитацию (обычно 1 или больше)
+
         currentAmmo = maxAmmo;
         UpdateAmmoUI();
 
@@ -55,27 +67,41 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (currentHealth <= 0) return; // если мёртв – не управляем
+        if (currentHealth <= 0) return;
 
         moveInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
 
+        // Логика запуска лазания
+        // Если стоим у лестницы и нажали вверх/вниз - начинаем лезть
+        if (isNearLadder && Mathf.Abs(verticalInput) > 0.1f)
+        {
+            isClimbing = true;
+        }
+
+        // Поворот спрайта
         if (moveInput != 0)
         {
             float absoluteScaleX = Mathf.Abs(transform.localScale.x);
             transform.localScale = new Vector3(absoluteScaleX * Mathf.Sign(moveInput), transform.localScale.y, transform.localScale.z);
         }
 
+        // Анимации
         if (animator != null)
         {
             animator.SetFloat("Speed", Mathf.Abs(moveInput));
             animator.SetBool("isGrounded", isGrounded);
             animator.SetFloat("yVelocity", rb.linearVelocity.y);
+            // Если добавишь анимацию лестницы, раскомментируй строку ниже:
+            // animator.SetBool("isClimbing", isClimbing);
         }
 
         isGrounded = CheckGrounded();
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        // Прыжок (можно прыгать и с земли, и отрываться от лестницы)
+        if (Input.GetButtonDown("Jump") && (isGrounded || isClimbing))
         {
+            isClimbing = false; // Отрываемся от лестницы
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
@@ -98,8 +124,19 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         if (currentHealth <= 0) return;
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-        if (animator != null) animator.SetBool("isGrounded", false);
+
+        if (isClimbing)
+        {
+            // На лестнице: выключаем гравитацию и двигаем по Y
+            rb.gravityScale = 0f;
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, verticalInput * climbSpeed);
+        }
+        else
+        {
+            // Обычное движение: возвращаем гравитацию и двигаем по X
+            rb.gravityScale = defaultGravity;
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        }
     }
 
     private bool CheckGrounded()
@@ -125,7 +162,7 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (currentHealth <= 0) return; // уже мёртв
+        if (currentHealth <= 0) return;
 
         currentHealth -= damage;
         if (healthText != null) healthText.text = "Health: " + currentHealth;
@@ -139,9 +176,8 @@ public class PlayerController : MonoBehaviour
     void Die()
     {
         if (gameOverUI != null) gameOverUI.ShowGameOver();
-        this.enabled = false;  // отключаем скрипт управления
+        this.enabled = false; 
         rb.linearVelocity = Vector2.zero;
-        // можно также отключить коллайдер или скрыть спрайт
         if (spriteRenderer != null) spriteRenderer.enabled = false;
     }
 
@@ -167,5 +203,23 @@ public class PlayerController : MonoBehaviour
         spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.1f);
         spriteRenderer.color = originalColor;
+    }
+
+    // --- ЛОГИКА ОПРЕДЕЛЕНИЯ ЛЕСТНИЦЫ ---
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            isNearLadder = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            isNearLadder = false;
+            isClimbing = false;
+        }
     }
 }
