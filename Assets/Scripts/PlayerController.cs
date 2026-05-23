@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public float climbSpeed = 5f;
     private bool isNearLadder = false;
     private bool isClimbing = false;
-    private float defaultGravity; // Запомним изначальную гравитацию
+    private float defaultGravity;
     private float verticalInput;
 
     [Header("Стрельба")]
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer != null) originalColor = spriteRenderer.color;
 
-        defaultGravity = rb.gravityScale; // Сохраняем базовую гравитацию (обычно 1 или больше)
+        defaultGravity = rb.gravityScale;
 
         currentAmmo = maxAmmo;
         UpdateAmmoUI();
@@ -71,15 +71,12 @@ public class PlayerController : MonoBehaviour
 
         moveInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
-
-        // Логика запуска лазания
-        // Если стоим у лестницы и нажали вверх/вниз - начинаем лезть
+        
         if (isNearLadder && Mathf.Abs(verticalInput) > 0.1f)
         {
             isClimbing = true;
         }
 
-        // Поворот спрайта
         if (moveInput != 0)
         {
             float absoluteScaleX = Mathf.Abs(transform.localScale.x);
@@ -92,16 +89,13 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("Speed", Mathf.Abs(moveInput));
             animator.SetBool("isGrounded", isGrounded);
             animator.SetFloat("yVelocity", rb.linearVelocity.y);
-            // Если добавишь анимацию лестницы, раскомментируй строку ниже:
-            // animator.SetBool("isClimbing", isClimbing);
         }
 
         isGrounded = CheckGrounded();
 
-        // Прыжок (можно прыгать и с земли, и отрываться от лестницы)
         if (Input.GetButtonDown("Jump") && (isGrounded || isClimbing))
         {
-            isClimbing = false; // Отрываемся от лестницы
+            isClimbing = false; 
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
@@ -127,13 +121,13 @@ public class PlayerController : MonoBehaviour
 
         if (isClimbing)
         {
-            // На лестнице: выключаем гравитацию и двигаем по Y
+
             rb.gravityScale = 0f;
             rb.linearVelocity = new Vector2(moveInput * moveSpeed, verticalInput * climbSpeed);
         }
         else
         {
-            // Обычное движение: возвращаем гравитацию и двигаем по X
+        
             rb.gravityScale = defaultGravity;
             rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
         }
