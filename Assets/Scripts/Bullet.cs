@@ -28,7 +28,6 @@ public class Bullet : MonoBehaviour
             Enemy enemy = other.GetComponent<Enemy>();
             if (enemy != null) enemy.TakeDamage(damage);
 
-            // ★ ВОТ ЭТО ДОБАВЬ ★
             Largo largo = other.GetComponent<Largo>();
             if (largo != null) largo.TakeDamage(damage);
 

@@ -5,7 +5,7 @@ public class Largo : MonoBehaviour
     [Header("Характеристики")]
     public int health = 12;
     public float moveSpeed = 1.2f;
-    public int contactDamage = 2;        // урон при касании (опционально)
+    public int contactDamage = 2;        
 
     [Header("Границы движения")]
     public Transform leftPoint;
@@ -37,18 +37,15 @@ public class Largo : MonoBehaviour
 
         float distToPlayer = Vector2.Distance(transform.position, player.position);
 
-        // Движение только если игрок дальше дистанции атаки
         if (distToPlayer > attackDistance)
         {
             Patrol();
         }
         else
         {
-            // Останавливаемся при атаке
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
 
-        // Атака волной
         if (attackTimer > 0) attackTimer -= Time.deltaTime;
         if (distToPlayer <= attackDistance && attackTimer <= 0 && wavePrefab != null)
         {
@@ -93,11 +90,9 @@ public class Largo : MonoBehaviour
         attackTimer = attackCooldown;  
         isAttacking = true;
 
-        // Направление на игрока
         Vector2 dir = (player.position - transform.position).normalized;
         animator.SetBool("isSpit", isAttacking);
 
-        // Создаём волну чуть перед врагом
         GameObject wave = Instantiate(wavePrefab, transform.position, Quaternion.identity);
         Wave waveScript = wave.GetComponent<Wave>();
         if (waveScript != null) waveScript.SetDirection(dir);

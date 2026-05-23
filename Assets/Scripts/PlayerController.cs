@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer != null) originalColor = spriteRenderer.color;
 
-        defaultGravity = rb.gravityScale;
+        defaultGravity = rb.gravityScale; // Сохраняем базовую гравитацию (обычно 1 или больше)
 
         currentAmmo = maxAmmo;
         UpdateAmmoUI();
@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
 
         moveInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
-        
+
         if (isNearLadder && Mathf.Abs(verticalInput) > 0.1f)
         {
             isClimbing = true;
@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(absoluteScaleX * Mathf.Sign(moveInput), transform.localScale.y, transform.localScale.z);
         }
 
-        // Анимации
+
         if (animator != null)
         {
             animator.SetFloat("Speed", Mathf.Abs(moveInput));
@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && (isGrounded || isClimbing))
         {
-            isClimbing = false; 
+            isClimbing = false; // Отрываемся от лестницы
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
@@ -121,13 +121,11 @@ public class PlayerController : MonoBehaviour
 
         if (isClimbing)
         {
-
             rb.gravityScale = 0f;
             rb.linearVelocity = new Vector2(moveInput * moveSpeed, verticalInput * climbSpeed);
         }
         else
         {
-        
             rb.gravityScale = defaultGravity;
             rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
         }
